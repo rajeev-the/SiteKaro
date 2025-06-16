@@ -1,13 +1,52 @@
-import { useState } from "react";
-import { GrHomeRounded } from "react-icons/gr";
+import { useState,useRef } from "react";
+import { GrHomeRounded} from "react-icons/gr";
+import { FiMenu,FiX  } from "react-icons/fi";
+import MobileNavbar from "./MobileNavbar ";
+import { useGSAP } from "@gsap/react";
+
+import gsap from "gsap";
+
 
 export default function BottomNavbar() {
   const [isPersonalOpen, setIsPersonalOpen] = useState(false);
   const [isCompanyOpen, setIsCompanyOpen] = useState(false);
   const[menu,setMenu ] = useState("home")
+  const dropdownRef = useRef(null);
+  const [mobilemenu,setMobilemenu] = useState(false)
+
+
+     // Animate on mount only
+  useGSAP(() => {
+    gsap.fromTo(
+      dropdownRef.current,
+      { y: 40, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" }
+    );
+  }, { scope: dropdownRef });
+
+  const navdata = [
+    {
+      name:"Home"
+    },
+     {
+      name:"Services ▾"
+    },
+
+    {
+      name:"Our Work ▾"
+    },
+    {
+      name:"About"
+    },
+     {
+      name:"Contact Us"
+    },
+
+  ]
 
   return (
-  <div className="fixed bottom-[60px] left-1/2 transform -translate-x-1/2 z-50 w-[486px] h-[10px]">
+    <>
+  <div ref={dropdownRef}  className=" sm:block hidden fixed  bottom-[60px] left-1/2 transform -translate-x-1/2 z-50   w-[486px] h-[10px]">
   <div className="flex items-center bg-red-500 rounded-full px-0.5 py-0.5 shadow-lg space-x-0.5 text-white">
     
   <button
@@ -15,7 +54,7 @@ export default function BottomNavbar() {
     setMenu("home")
     setIsCompanyOpen(false)
   }}
-  className={`py-2 px-5 rounded-full ${
+  className={` hover:bg-white/30  py-2 px-5 rounded-full ${
     menu === "home" ? "bg-white/30" : ""
   }`}
 >
@@ -132,6 +171,31 @@ export default function BottomNavbar() {
     </div>
   </div>
 </div>
+
+
+
+
+
+<MobileNavbar mobilemenu={mobilemenu}/>
+
+
+
+
+ <button
+      onClick={() => setMobilemenu(!mobilemenu)}
+      className="sm:hidden flex items-center fixed bottom-[30px] left-1/2 transform -translate-x-1/2 z-50 bg-red-500 text-white font-bold px-5 py-3 rounded-full space-x-3 shadow-xl hover:bg-red-600 transition-all duration-300"
+    >
+      <span className="text-base tracking-wide">
+        {mobilemenu ? "Close" : "Menu"}
+      </span>
+      {mobilemenu ? (
+        <FiX className="text-white text-2xl" />
+      ) : (
+        <FiMenu className="text-white text-2xl" />
+      )}
+    </button>
+
+</>
 
   );
 }
