@@ -52,7 +52,7 @@ const MobileNavbar = ({ mobilemenu }) => {
   return (
     <div
       ref={menuRef}
-      className="sm:hidden flex-col items-center justify-center px-[30px] text-white z-50 gap-5 mt-[350px] opacity-0 translate-y-5 hidden"
+      className="sm:hidden flex-col items-center justify-center px-[30px] text-white z-50 gap-5 mt-[320px] opacity-0 translate-y-5 hidden"
     >
       <div className="w-full bg-red-500 rounded-2xl p-4 flex flex-col space-y-3 shadow-lg">
         {navdata.map((item, idx) => {
