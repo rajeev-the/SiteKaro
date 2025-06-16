@@ -2,15 +2,29 @@ import React, { useState } from 'react';
 import { FiPhone, FiMail, FiArrowRight, FiMenu, FiX } from 'react-icons/fi';
 
 const HeaderNavbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+
 
   return (
     <header className="bg-white shadow-sm px-6 py-4 sticky top-0 z-50">
+          <div className=' sm:hidden flex  mb-[10px] gap-5'> 
+            <div className="flex items-center space-x-1">
+            <FiPhone className="text-red-400 text-sm" />
+            <a href="tel:+919310851557" className="hover:text-red-500 font-sm transition-colors">
+              +91 93108 51557
+            </a>
+          </div>
+          <div className="flex items-center space-x-1">
+            <FiMail className="text-red-400 text-sm" />
+            <a href="mailto:info@sitekaro.com" className="hover:text-red-500 font-sm transition-colors">
+              info@sitekaro.com
+            </a>
+          </div>
+         </div>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-extrabold text-gray-800 tracking-tight">
           <a href="/" className="flex items-center space-x-1">
-            <span>Site</span>
+            <span>SiteKaro</span>
             <span className="text-red-500">.com</span>
           </a>
         </div>
@@ -50,6 +64,7 @@ const HeaderNavbar = () => {
         
 
       </div>
+    
 
    
     </header>
