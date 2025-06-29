@@ -30,7 +30,7 @@ const TopHeader = () => {
   ];
 
   return (
-    <div className="relative w-full  scrollbar-hide whitespace-nowrap  gap-3  flex justify-center  items-center sm:px-[130px]  ">
+    <div className="relative w-full mt-2  scrollbar-hide whitespace-nowrap  gap-3  flex justify-center  items-center sm:px-[130px]  ">
       {/* Left Arrow */}
 
   <button
@@ -53,7 +53,7 @@ const TopHeader = () => {
         {categories.map((item, index) => (
           <div
             key={index}
-            className="text-gray-700 hover:text-black mx-3 text-sm md:text-base flex items-center whitespace-nowrap"
+            className="text-gray-700 hover:text-[#FF4F0F] mx-3 text-sm md:text-base flex items-center whitespace-nowrap"
           >
             {item.icon && <span className="mr-1">{item.icon}</span>}
             {item.name}

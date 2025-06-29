@@ -47,7 +47,7 @@ export default function BottomNavbar() {
   return (
     <>
   <div ref={dropdownRef}  className=" sm:block hidden fixed  bottom-[50px] left-1/2 transform -translate-x-1/2 z-50   w-[486px] h-[10px]">
-  <div className="flex items-center bg-red-500 rounded-full px-0.5 py-0.5 shadow-lg space-x-0.5 text-white">
+  <div className="flex items-center bg-[#FF4F0F] rounded-full px-0.5 py-0.5 shadow-lg space-x-0.5 text-white">
     
   <button
   onClick={()=>{
@@ -183,7 +183,7 @@ export default function BottomNavbar() {
 
  <button
       onClick={() => setMobilemenu(!mobilemenu)}
-      className="sm:hidden flex items-center fixed bottom-[30px] left-1/2 transform -translate-x-1/2 z-50 bg-red-500 text-white font-bold px-5 py-3 rounded-full space-x-3 shadow-xl hover:bg-red-600 transition-all duration-300"
+      className="sm:hidden flex items-center fixed bottom-[30px] left-1/2 transform -translate-x-1/2 z-50 bg-[#FF4F0F] text-white font-bold px-5 py-3 rounded-full space-x-3 shadow-xl hover:bg-red-600 transition-all duration-300"
     >
       <span className="text-base tracking-wide">
         {mobilemenu ? "Close" : "Menu"}

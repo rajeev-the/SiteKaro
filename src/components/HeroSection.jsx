@@ -1,9 +1,12 @@
 import React from 'react'
+import Rajeev from "../assets/20250616_1848_Stylized Portrait Photography_remix_01jxwe6ebxe5qsrgqqwthvf377.png"
+import Rajeev1 from "../assets/20250619_0131_Bold Portrait Design_remix_01jy2a079kegw9mtt1y5g8w87k.png"
+import Rajeev2  from "../assets/20250616_1848_Stylized Portrait Photography_remix_01jxwe6ebxe5qsrgqqwthvf377-Photoroom.png"
 import { Search } from "lucide-react";
 
 const HeroSection = () => {
   return (
-     <section className="bg-red-500 text-white px-6 py-14 md:py-20 rounded-3xl">
+     <section className="bg-[#FF4F0F] text-white px-6 py-14 md:py-20 rounded-3xl">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-12">
         {/* Left Content */}
         <div className="max-w-2xl space-y-6">
@@ -17,7 +20,7 @@ const HeroSection = () => {
               Browse freelancers
             </button>
             <button className="text-white px-4 py-1 rounded-full font-medium text-sm">
-              Post a project brief
+              See past projects
             </button>
             <button className="text-white px-4 py-1 rounded-full font-medium text-sm">
               Sourcing experts
@@ -29,9 +32,9 @@ const HeroSection = () => {
             <input
               type="text"
               placeholder="Search for skills or services"
-              className="w-full p-3 text-gray-700 outline-none"
+              className="w-full p-3 text-black  bg-[#FFA673] outline-none"
             />
-            <button className="bg-green-500 p-3">
+            <button className="bg-green-900 p-3">
               <Search className="text-white" />
             </button>
           </div>
@@ -43,31 +46,37 @@ const HeroSection = () => {
         {/* Right Images */}
         <div className="flex space-x-[-40px] mt-8 lg:mt-0">
           <img
-            src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_180,h_240,dpr_2.0/v1/attachments/generic_asset/asset/d4d207ffdd2f63033846414e7499d10d-1681301972293/pro1.png"
-            alt="Jonah"
-            className="w-36 h-48 rounded-xl object-cover z-10"
+            src={Rajeev1}
+            alt="Rajeev"
+            className="w-36 h-48 rounded-xl  mt-[25px] object-cover z-10"
           />
           <img
-            src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_180,h_240,dpr_2.0/v1/attachments/generic_asset/asset/43f74742db9b6f0ff6fcdfb348c15849-1681301970793/pro2.png"
+            src={Rajeev}
             alt="Camille"
-            className="w-36 h-48 rounded-xl object-cover z-20"
+            className="w-46 h-60 rounded-xl object-cover z-20"
           />
           <img
-            src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_180,h_240,dpr_2.0/v1/attachments/generic_asset/asset/bdfbb7f26d0edcb15f17d9ce24e4fc1e-1681301971574/pro3.png"
+            src={Rajeev2}
             alt="James"
-            className="w-36 h-48 rounded-xl object-cover z-10"
+            className="w-36 h-48 mt-[25px] rounded-xl object-cover z-10"
           />
         </div>
         
       </div>
-          <div className="bg-white/10 backdrop-blur-md rounded-xl  mb-[10px] mx-[60px] px-4 py-4 mt-8 flex  gap-6 items-center text-sm font-medium">
-            <span className="text-white">Brands who hire with Fiverr Pro</span>
+          <div className="bg-white/10 backdrop-blur-md rounded-xl   mx-[50px] px-4 py-4 mt-[50px] flex  gap-6 items-center text-sm font-medium">
+            <span className="text-white">"Trusted By Leading Brands</span>
             <span className="text-white">HITACHI</span>
             <span className="text-white">similarweb</span>
             <span className="text-white">SKECHERS</span>
             <span className="text-white">MyHeritage</span>
             <span className="text-white">NETFLIX</span>
             <span className="text-white">L'ORÉAL</span>
+            <span className="text-white">Unilever</span>
+             <span className="text-white">MyHeritage</span>
+            <span className="text-white">NETFLIX</span>
+            <span className="text-white">L'ORÉAL</span>
+            <span className="text-white">Unilever</span>
+    
             <span className="text-white">Unilever</span>
           </div>
     </section>
