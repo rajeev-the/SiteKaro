@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import BottomNavbar from './components/BottomNavbar'
 import HeaderNavbar from './components/HeaderNavbar'
+import TopHeader from './components/TopHeader'
+import HeroSection from './components/HeroSection'
 
 const App = () => {
   return (
@@ -13,6 +15,11 @@ const App = () => {
       {/* Other content */}
       <HeaderNavbar/>
       <BottomNavbar />
+      <TopHeader/>
+      <div className='sm:px-[50px]  px-[10px]  mt-5' >
+        
+      <HeroSection /> 
+      </div>
     </div>
   )
 }

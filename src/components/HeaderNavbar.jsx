@@ -5,7 +5,7 @@ const HeaderNavbar = () => {
 
 
   return (
-    <header className="bg-white shadow-sm px-6 py-4 sticky top-0 z-50">
+    <header className="bg-white shadow-sm  sm:rounded-b-full rounded-b-4xl  px-6 py-4 sticky top-0 z-50">
           <div className=' sm:hidden flex  mb-[10px] gap-5'> 
             <div className="flex items-center space-x-1">
             <FiPhone className="text-red-400 text-sm" />
