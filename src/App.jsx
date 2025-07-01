@@ -4,6 +4,7 @@ import BottomNavbar from './components/BottomNavbar'
 import HeaderNavbar from './components/HeaderNavbar'
 import TopHeader from './components/TopHeader'
 import HeroSection from './components/HeroSection'
+import SectionHome2 from './components/SectionHome2'
 
 const App = () => {
   return (
@@ -16,11 +17,16 @@ const App = () => {
       <HeaderNavbar/>
       <BottomNavbar />
       <TopHeader/>
-      <div className='sm:px-[50px]  px-[10px]  mt-5' >
+      <div className='sm:px-[50px]  px-[10px]  ' >
         
       <HeroSection /> 
       </div>
+      <div className='mt-[80px]'>
+       <SectionHome2/>
+      </div>
+     
     </div>
+    
   )
 }
 

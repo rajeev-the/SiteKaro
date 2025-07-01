@@ -46,7 +46,7 @@ export default function BottomNavbar() {
 
   return (
     <>
-  <div ref={dropdownRef}  className=" sm:block hidden fixed  bottom-[50px] left-1/2 transform -translate-x-1/2 z-50   w-[486px] h-[10px]">
+  <div ref={dropdownRef}  className=" sm:block hidden fixed  bottom-[40px] left-1/2 transform -translate-x-1/2 z-50   w-[486px] h-[10px]">
   <div className="flex items-center bg-[#FF4F0F] rounded-full px-0.5 py-0.5 shadow-lg space-x-0.5 text-white">
     
   <button
