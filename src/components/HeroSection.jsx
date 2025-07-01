@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 
 const HeroSection = () => {
   return (
-     <section className="bg-[#FF4F0F] text-white mt-8  h-full px-6 py-14 md:py-20 rounded-3xl">
+     <section className="bg-[#FF4F0F] text-white mt-6  h-full px-6 py-14 md:py-20 rounded-3xl">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-12">
         {/* Left Content */}
         <div className="max-w-2xl space-y-6">
