@@ -63,7 +63,7 @@ const HeroSection = () => {
         </div>
         
       </div>
-          <div className="bg-[#03A6A1] backdrop-blur-md rounded-xl   mx-[50px] px-4 py-4 mt-[50px] flex  gap-6 items-center text-sm font-medium">
+          <div className="bg-white/10 backdrop-blur-md rounded-xl   mx-[50px] px-4 py-4 mt-[50px] flex  gap-6 items-center text-sm font-medium">
             <span className="text-white">"Trusted By Leading Brands</span>
             <span className="text-white">HITACHI</span>
             <span className="text-white">similarweb</span>
