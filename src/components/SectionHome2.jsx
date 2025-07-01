@@ -10,11 +10,11 @@ const SectionHome2 = () => {
         </h2>
         <div className="w-full mx-auto space-y-[-10px]">
           <AchievementButton text="Motivate" color="bg-[#FF4F0F]" />
-          <AchievementButton text="Grow" color="bg-[#FF6240]" />
-          <AchievementButton text="Inspire" color="bg-[#FF866F]" />
-          <AchievementButton text="Attract" color="bg-[#FFAC9D]" />
-          <AchievementButton text="Change" color="bg-[#FFD2CC]" />
-          <AchievementButton text="Maximize" color="bg-[#FFE7E2]" />
+          <AchievementButton text="Grow" color="bg-[#FF5B1E]" />
+          <AchievementButton text="Inspire" color="bg-[#FF682D]" />
+          <AchievementButton text="Attract" color="bg-[#FF743C]" />
+          <AchievementButton text="Change" color="bg-[#FF804B]" />
+          <AchievementButton text="Maximize" color="bg-[#FF8C5A]" />
         </div>
       </section>
 
