@@ -9,12 +9,12 @@ const SectionHome2 = () => {
           What do you want to achieve?
         </h2>
         <div className="w-full mx-auto space-y-[-10px]">
-          <AchievementButton text="Motivate" color="bg-pink-500" />
-          <AchievementButton text="Grow" color="bg-green-500" />
-          <AchievementButton text="Inspire" color="bg-orange-500" />
-          <AchievementButton text="Attract" color="bg-purple-500" />
-          <AchievementButton text="Change" color="bg-blue-500" />
-          <AchievementButton text="Maximize" color="bg-fuchsia-500" />
+          <AchievementButton text="Motivate" color="bg-[#FF4F0F]" />
+          <AchievementButton text="Grow" color="bg-[#E5470D]" />
+          <AchievementButton text="Inspire" color="bg-[#BF3B0B]" />
+          <AchievementButton text="Attract" color="bg-[#992F09]" />
+          <AchievementButton text="Change" color="bg-[#732306]" />
+          <AchievementButton text="Maximize" color="bg-[#4C1804]" />
         </div>
       </section>
 
