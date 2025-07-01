@@ -18,17 +18,7 @@ const SectionHome2 = () => {
         </div>
       </section>
 
-      {/* Placeholder for "Why Level" and "We're ready to act" sections */}
-      <section className="py-16 px-4 md:px-8 lg:px-16 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 rounded-lg">Why Level</h2>
-        <p className="text-lg text-gray-300 mb-8 rounded-lg">
-          (Content for "Why Level" section would go here)
-        </p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 rounded-lg">We're ready to act</h2>
-        <p className="text-lg text-gray-300 rounded-lg">
-          (Content for "We're ready to act" section would go here)
-        </p>
-      </section>
+   
     </div>
   );
 };

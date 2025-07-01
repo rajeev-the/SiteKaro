@@ -55,7 +55,7 @@ const HeaderNavbar = () => {
           </div>
           <a
             href="#proposal"
-            className="bg-[#FF4F0F] hover:bg-[#FFA673] text-white font-semibold py-2 px-5 rounded-full shadow-sm flex items-center gap-2 transition-all duration-200"
+            className="bg-[#03A6A1] hover:bg-[#FFA673] text-white font-semibold py-2 px-5 rounded-full shadow-sm flex items-center gap-2 transition-all duration-200"
           >
             Get Proposal <FiArrowRight className="text-white" />
           </a>
