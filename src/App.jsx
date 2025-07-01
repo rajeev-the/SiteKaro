@@ -12,7 +12,7 @@ const App = () => {
   //  <Navbar/>
 
   //   </div>
-   <div className="relative min-h-screen  ">
+   <div className="relative min-h-screen  bg-[#FFE3BB] ">
       {/* Other content */}
       <HeaderNavbar/>
       <BottomNavbar />
