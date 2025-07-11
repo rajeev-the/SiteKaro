@@ -152,6 +152,7 @@ const GrowthSection = () => {
     </div>
   </div>
 </div>
+
 <div className=" h-screen overflow-hidden bg-white/60 backdrop-blur-md rounded-xl mx-[50px] px-4 py-4 ">
   <div className=" w-[100px] scroll-vertical">
     <div className="flex flex-col gap-2 items-center text-xl font-medium text-black">

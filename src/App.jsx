@@ -12,6 +12,8 @@ import GrowthSection from './components/GrowthSection'
 
 import OrbitingAvatars from './components/OrbitingAvatars'
 import SectionSP from './components/SectionSP'
+import Reward from './components/Reward'
+import BeforeAfter from './components/BeforeAfter'
 
 const App = () => {
   return (
@@ -60,9 +62,28 @@ const App = () => {
       
    
     
-  <div className="min-h-screen ">
+  <div className=" ">
     
         <SectionSP />
+   
+    
+    </div>
+
+     <div className="mb-20 ">
+     <h1 className='text-center  text-4xl  mb-5 font-extrabold'>Our Work Speaks Louder with Awards</h1>
+          <p className='text-center  text-sm  mb-1  font-medium '>Our Work Speaks Louder with AwardsAwardsAwardsAwardsAwardsAwards</p>
+
+
+        <Reward />
+   
+    
+    </div>
+
+
+    <div className="min-h-screen ">
+     <h1 className='text-center  text-4xl  mb-5 font-extrabold'>Before and after </h1>
+
+        <BeforeAfter/>
    
     
     </div>

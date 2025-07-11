@@ -13,7 +13,7 @@
     "@gsap/react": "^2.1.2",
     "@splinetool/react-spline": "^4.0.0",
     "@tailwindcss/vite": "^4.1.10",
-    "framer-motion": "^12.23.0",
+    "framer-motion": "^12.23.3",
     "gsap": "^3.13.0",
     "lodash": "^4.17.21",
     "lucide-react": "^0.515.0",
