@@ -12,29 +12,6 @@ const Navbar = () => {
           </span>
         </div>
 
-        {/* Center: Navigation Links */}
-        <ul className="hidden md:flex items-center space-x-6 text-sm font-medium text-gray-800">
-          <li className="group relative cursor-pointer">
-            SEO & Lead Generation
-            <span className="ml-1">▼</span>
-          </li>
-          <li className="group relative cursor-pointer">
-            Revenue Marketing & CRO
-            <span className="ml-1">▼</span>
-          </li>
-          <li className="group relative cursor-pointer">
-            UX & Interactive
-            <span className="ml-1">▼</span>
-          </li>
-          <li className="group relative cursor-pointer">
-            AI & Technology
-            <span className="ml-1">▼</span>
-          </li>
-          <li className="group relative cursor-pointer">
-            Who We Are
-            <span className="ml-1">▼</span>
-          </li>
-        </ul>
 
         {/* Right: CTA Button */}
         <button className="ml-4 bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition">
