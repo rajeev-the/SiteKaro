@@ -14,6 +14,8 @@ import OrbitingAvatars from './components/OrbitingAvatars'
 import SectionSP from './components/SectionSP'
 import Reward from './components/Reward'
 import BeforeAfter from './components/BeforeAfter'
+import Carousel3DDemo from './components/Carousel3DDemo'
+import Sectionpara from './components/Sectionpara'
 
 const App = () => {
   return (
@@ -88,6 +90,13 @@ const App = () => {
     
     </div>
     
+    <div className='  min-h-screen'>
+      <Carousel3DDemo/>
+    </div>
+
+    <div className='  min-h-screen'>
+      <Sectionpara/>
+    </div>
     
      
     </div>
